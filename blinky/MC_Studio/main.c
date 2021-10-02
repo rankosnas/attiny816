@@ -5,7 +5,7 @@
  BODCFG = 0x40 (valid)
  BOOTEND = 0x00 (valid)
  OSCCFG = 0x01 (valid)
- * 16MHz
+ ; 16MHz
  SYSCFG0 = 0xF7 (valid)
  SYSCFG1 = 0x04 (valid)
  TCD0CFG = 0x00 (valid)
