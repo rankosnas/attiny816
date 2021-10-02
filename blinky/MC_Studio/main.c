@@ -1,10 +1,17 @@
 /*
  * attiny816_blinky.c
- *
- * Created: 01.10.2021 18:51:39
- * Author : Ranko
- */ 
+ 
+ APPEND = 0x00 (valid)
+ BODCFG = 0x40 (valid)
+ BOOTEND = 0x00 (valid)
+ OSCCFG = 0x01 (valid)
+ * 16MHz
+ SYSCFG0 = 0xF7 (valid)
+ SYSCFG1 = 0x04 (valid)
+ TCD0CFG = 0x00 (valid)
+ WDTCFG = 0x00 (valid)
 
+ */ 
 #define F_CPU 8000000UL
 
 #include <avr/io.h>
